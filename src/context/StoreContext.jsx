@@ -9,7 +9,7 @@ const StoreContextProvider = (props) => {
     const[cartItems,setCartItems] = useState({});
 
     //declare url for backend
-    const url = "http://localhost:4000"
+    const url = "https://deploychickenbackend-github-io-backend.onrender.com"
 
     //token
     const [token,setToken] = useState("")
